@@ -1,0 +1,29 @@
+# ============================================================================
+# このリポジトリは将来公開する前提のため、実データ・認証情報を絶対に含めないこと。
+# 詳細ルールは データ取扱いルール.md を参照。
+# ============================================================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# GCP / Firebase（認証情報・鍵）
+.firebase/
+firebase-debug.log
+*-service-account*.json
+serviceAccountKey.json
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# ローカル作業用スクラッチ
+*.tmp
+*.local.*

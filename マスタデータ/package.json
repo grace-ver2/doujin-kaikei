@@ -1,0 +1,10 @@
+{
+  "name": "doujin-kaikei-master-data-sync",
+  "version": "0.1.0",
+  "description": "イベントマスタ等の公開マスタデータを、各ユーザー自身のFirestoreへ反映するツール",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}
